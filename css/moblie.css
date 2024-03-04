@@ -1,0 +1,444 @@
+@media screen and (max-width: 481px) {
+    body {
+
+        width: 480px;
+        overflow-x: hidden ;
+    }
+
+    header {
+        width: 480px;
+
+    }
+
+    .container-custom {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 480px;
+
+    }
+
+    .icon3 {
+        margin-bottom: 0;
+        margin-top: 3px;
+        padding-bottom: 0;
+        margin-right: -3px;
+    }
+
+    /* header */
+    .header-center {
+        display: none;
+    }
+
+    .headertop__right {
+        display: none;
+    }
+
+    .headerBot {
+        display: none;
+    }
+
+    .style_banner {
+        flex-direction: column;
+    }
+
+    .header-left {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: -3px;  
+    }
+
+    .header-right {
+        padding: 0;
+    }
+
+    .headertop {
+        width: 100%;
+        padding: 0 3px;
+        margin: 8px;
+    }
+
+    .hr_header {
+        margin-bottom: 0;
+        color: #b4b3b3;
+    }
+
+    .aria-header {
+        margin: 6px 0;
+    }
+
+    /* menu moblile */
+    .icon_hover {
+        width: 24px;
+        margin-top: 9px;
+        margin-left: 10px;
+    }
+
+    .header_mobile_left {
+        position: relative;
+        display: block;
+    }
+
+    .content_header_hover {
+        display: none;
+        width: 280px;
+        height: 115vh;
+        position: absolute;
+        left: -19px;
+        top: -47px;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 14px;
+        background-color: bisque;
+        z-index: 6;
+    }
+
+    .scrollable-div-y {
+        overflow-y: auto;
+    }
+
+    .scrollable-div-y::-webkit-scrollbar {
+        width: 8px;
+        /* Chiều rộng thanh kéo */
+    }
+
+    .top_content {
+        position: relative;
+    }
+
+    .icon_close {
+        position: absolute;
+        right: 0;
+    }
+
+    .icon1 {
+        margin-left: 10px;
+    }
+
+    .search_menu {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    input.search {
+
+        padding-top: 0;
+        padding-left: 12px;
+
+    }
+
+    input::placeholder {
+        color: #999999;
+        /* Màu chữ cho placeholder */
+        font-weight: 400;
+    }
+
+    /* category */
+    .name_menu {
+        margin-top: 15px;
+    }
+
+    #categoriesContent {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .dropdown-item {
+        margin: 12px 0;
+    }
+
+    .cate {
+        font-size: 16px;
+        font-weight: 600;
+        padding-right: 10px;
+        color: #888;
+    }
+
+    .main {
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 10px;
+
+    }
+
+    #mainMenuContent {
+        display: none;
+        flex-direction: column;
+        width: 240px;
+    }
+
+    /* home */
+    .name_main,
+    .home1 {
+        display: flex;
+        text-decoration: none;
+        color: #000;
+        margin: 20px 0;
+    }
+
+    .name_main {
+        margin-top: 12px;
+    }
+
+
+    .home1 {
+        margin-left: 20px;
+    }
+
+    .item-icon-right {
+        flex: 1;
+        text-align: end;
+    }
+
+    /* shop */
+
+    .shop1 {
+        display: flex;
+        text-decoration: none;
+        color: #000;
+
+    }
+
+    .about {
+        margin: 10px 0;
+    }
+
+    /* banner */
+    .banner_left {
+        width: 464px;
+    }
+
+    .banner_right {
+        display: flex;
+
+    }
+
+    .banner_right1 {
+        width: 232px;
+        height: 166px;
+    }
+
+    .banner_right2 {
+        width: 232px;
+        height: 166px;
+    }
+
+    .fit-image {
+        object-fit: contain;
+        width: 464px;
+        height: auto;
+    }
+
+    .element {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shiping {
+        padding-bottom: 39px;
+        padding-left: 11px;
+        padding-top: 10px;
+    }
+
+    .return {
+        padding-bottom: 39px;
+        padding-left: 11px;
+
+    }
+
+    .Payment {
+        padding-bottom: 39px;
+        padding-left: 11px;
+
+    }
+
+    .Quality {
+        padding-bottom: 10px;
+        padding-left: 11px;
+
+    }
+
+    /* game */
+    .none_mobile {
+        display: none;
+    }
+
+    .game_World {
+        flex-direction: column;
+    }
+
+    .item_product {
+        width: 464px;
+        height: 418px;
+        margin-bottom: 20px;
+    }
+
+    .brand {
+        grid-template-columns: auto auto;
+    }
+
+    /* flash sale */
+    .value_countdown {
+        width: 50px;
+        height: 50px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .day p {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+
+    .flashSale_left {
+        width: 464px;
+        height: 273px;
+        padding: 20px 35px;
+    }
+
+    .flashSale {
+        flex-direction: column;
+    }
+
+    .flashSale_right {
+        width: 464px;
+        height: 430px;
+        margin-left: 0px;
+        margin-top: 20px;
+        padding: 35px 30px;
+
+
+    }
+
+    .img_phone {
+        width: 424px;
+        height: 117px;
+    }
+
+    /* top sale */
+    .topSell {
+
+        grid-template-columns: auto;
+    }
+
+    .item1 {
+        width: 464px;
+        height: 250px;
+    }
+
+    /* bestsale */
+    .bestSale {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile_img {
+        width: 464px;
+        height: 240px;
+    }
+
+    .banner_TopSale {
+        flex-direction: column;
+    }
+
+    .margin_left {
+        margin-left: 0;
+    }
+
+    .item_banner {
+        margin-bottom: 20px;
+
+    }
+
+    /* popular*/
+    .item_popular1 {
+        display: none;
+
+    }
+
+    .popular_sale {
+        flex-direction: column;
+    }
+
+    .mobile_banner_popu {
+        width: 464px;
+        height: 116px;
+    }
+
+    /*  New Arrivals */
+    .newArrivals {
+        grid-template-columns: auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .mobile_banner_new {
+        width: 464px;
+        height: 65px;
+    }
+
+    /* popular2 */
+    .popular2 {
+        grid-template-columns: auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 3px;
+    }
+
+    /* email */
+    .sale20 {
+        font-size: 20px;
+    }
+
+    .by_sub {
+        font-size: 16px;
+    }
+
+    .area_box {
+        width: 300px;
+    }
+
+    .btn_input {
+        width: 80px;
+    }
+
+    /* footer */
+    .footer {
+        flex-direction: column;
+    }
+
+    .right_footer {
+        flex-direction: column;
+    }
+
+    .Helpful {
+        padding-left: 0;
+    }
+
+    .aboutUs {
+        padding-bottom: 30px;
+    }
+
+    .feature {
+        padding-bottom: 30px;
+    }
+
+    .General {
+        padding-bottom: 30px;
+    }
+
+    .end_footer {
+        flex-direction: column;
+    }
+
+    /* icon hover */
+    .icon_right {
+        display: none;
+    }
+
+    .margin_right {
+        margin-right: 0;
+    }
+}

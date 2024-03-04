@@ -1,0 +1,373 @@
+@media screen and (min-width: 481px) and (max-width: 992px) {
+    body {
+        width: 992px;
+        overflow-x: hidden;
+    }
+
+    .container-custom {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 992px;
+
+    }
+
+    /* header */
+    .none_tablet {
+        display: none;
+    }
+
+    .headertop {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .header-left {
+        justify-content: flex-end;
+    }
+
+    .hr_header {
+        margin-bottom: 0;
+    }
+
+    .icon3 {
+        margin-right: 0;
+    }
+
+    /* menu moblile */
+    .icon_hover {
+        width: 25px;
+        margin-top: 20px;
+    }
+
+    .header_mobile_left {
+        position: relative;
+        display: block;
+    }
+
+    .content_header_hover {
+        display: none;
+        width: 280px;
+        height: 105vh;
+        position: absolute;
+        left: -19px;
+        top: -44px;
+        padding: 20px 20px;
+        background-color: bisque;
+        z-index: 6;
+    }
+
+    .scrollable-div-y {
+        overflow-y: auto;
+    }
+
+    .scrollable-div-y::-webkit-scrollbar {
+        width: 8px;
+        /* Chiều rộng thanh kéo */
+    }
+
+    .top_content {
+        position: relative;
+    }
+
+    .icon_close {
+        position: absolute;
+        right: 0;
+    }
+
+    .icon1 {
+        margin-left: 10px;
+    }
+
+    .search_menu {
+        display: flex;
+        margin-top: 30px;
+    }
+
+    input.search {
+
+        padding-top: 0;
+        padding-left: 12px;
+
+    }
+
+    input::placeholder {
+        color: #999999;
+        /* Màu chữ cho placeholder */
+        font-weight: 400;
+    }
+
+    /* category */
+    .name_menu {
+        margin-top: 15px;
+    }
+
+    #categoriesContent {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .dropdown-item {
+        margin: 12px 0;
+    }
+
+    .cate {
+        font-size: 17px;
+        font-weight: 600;
+        padding-right: 15px;
+
+    }
+
+    .main {
+        font-size: 17px;
+        font-weight: 600;
+        padding-left: 15px;
+
+    }
+
+    #mainMenuContent {
+        display: none;
+        flex-direction: column;
+        width: 240px;
+    }
+
+    /* home */
+    .name_main,
+    .home1 {
+        display: flex;
+        text-decoration: none;
+        color: #000;
+        margin: 20px 0;
+    }
+    .name_main{
+        margin-top: 12px;
+    }
+   
+
+    .home1 {
+        margin-left: 20px;
+    }
+
+    .item-icon-right {
+        flex: 1;
+        text-align: end;
+    }
+
+    /* shop */
+  
+    .shop1 {
+        display: flex;
+        text-decoration: none;
+        color: #000;
+
+    }
+
+    .about {
+        margin: 10px 0;
+    }
+
+    /* pages */
+
+    /* banner*/
+    .style_banner {
+        flex-direction: column;
+    }
+
+    .fit-image {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner_left {
+        padding-right: 0px;
+    }
+
+    .banner_right {
+        display: flex;
+    }
+
+    .banner_right1,
+    .banner_right2 {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner_top,
+    .banner_bottom {
+        flex-grow: 1;
+    }
+
+    .banner_top {
+        padding-bottom: 0;
+    }
+
+    /* dưới banner */
+    .element {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shiping {
+        padding-bottom: 39px;
+        padding-left: 11px;
+        padding-top: 10px;
+    }
+
+    .return {
+        padding-bottom: 39px;
+        padding-left: 11px;
+
+    }
+
+    .Payment {
+        padding-bottom: 39px;
+        padding-left: 11px;
+
+    }
+
+    .Quality {
+        padding-bottom: 10px;
+        padding-left: 11px;
+
+    }
+
+    /* game */
+    .game_World {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item_product {
+        width: 464px;
+        height: 418px;
+        margin-bottom: 20px;
+    }
+
+    /* brand */
+    .brand {
+        grid-template-columns: auto auto auto auto;
+
+    }
+
+    /* flash sale */
+    .flashSale {
+        flex-direction: column;
+    }
+
+    .flashSale_right {
+        margin-left: 0;
+        margin-top: 20px;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .flashSale_left {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        padding: 19px 35px;
+    }
+
+    #demo {
+        justify-content: space-evenly;
+    }
+
+    /* best sale */
+    .bestSale {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .mobile_img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner_TopSale {
+        grid-column-gap: 20px;
+    }
+
+    /* popular */
+    .popular_sale {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .mobile_banner_popu,
+    .mobile_banner_new {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* new Arrivals */
+    .newArrivals {
+        grid-template-columns: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 5px;
+    }
+
+    /* popular2 */
+    .popular2 {
+        grid-template-columns: auto;
+    }
+
+    /* footer */
+    .footer {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .right_footer {
+        flex-direction: column;
+    }
+
+    .Helpful {
+        padding-left: 0;
+    }
+
+    .aboutUs {
+        padding-bottom: 30px;
+    }
+
+    .feature {
+        padding-bottom: 30px;
+    }
+
+    .General {
+        padding-bottom: 30px;
+    }
+
+    .Helpful {
+        margin-bottom: 20px;
+    }
+
+    /* end footer */
+    .end_footer {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .left_end {
+        position: relative;
+    }
+
+    .left_end p {
+        position: absolute;
+        right: 0;
+        padding-right: 0;
+    }
+
+    .color_item {
+        margin-bottom: 0;
+    }
+
+    .right_end {
+        padding-top: 20px;
+    }
+
+}
